@@ -2,10 +2,190 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>CarefulProgrammer Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
-	<h1>CarefulProgrammer Portfolio</h1>
-	<p>Under Development!</p>
+	<header>
+		<h1 id="webName">CarefulProgrammer</h1>
+		<nav id="headerNav">
+			<ul>
+				<li><img id="likeButton" src="assets/heart-red.png"></img></li>
+				<li><img id="burgerMenu" src="assets/burger-menu.svg"></img></li>
+			</ul>
+		</nav>
+		<img id="submitSearch" src="assets/magnifying-glass.svg"/>
+		<input id="searchBox"></input>
+		<aside id="searchResults">
+			<button id="closeSearchResults"/></button>
+			<section id="results"></section>
+			<h1>A Secure Web Search System is Being Built for this site!</h1>
+		</aside>
+		<aside id="rightTray">
+			<ul>
+				<li class="disabled">My Projects <img src="assets/ban.svg"/></li>
+				<li class="disabled">My Favourite Books <img src="assets/ban.svg"/></li>
+				<li class="disabled">My Favourite Products <img src="assets/ban.svg"/></li>
+				<li class="disabled">About Me <img src="assets/ban.svg"/></li>
+				<li class="disabled">My Blog <img src="assets/ban.svg"/></li>
+				<li class="disabled">My Certifications <img src="assets/ban.svg"/></li>
+			</ul>
+		</aside>
+	</header>
+	<aside id="leftNav">
+		<nav id="CrossLinks">
+			<ul>
+				<li><a href="index.html"><img id="homeButton" src="assets/home-icon.svg"></img></a></li>
+				<li><hr style="width:80%;height:1px;display:inline-block;"/></li>
+				<li><a href="https://github.com/CarefulProgrammer" target="_blank"><img id="gitHubIcon" src="assets/GitHub-Mark-Light-32px.png"></img></a></li>
+				<li><a href="https://twitter.com/CarefulProgram" target="_blank"><img id="twitterIcon" src="assets/Twitter-logo.svg"></img></a><li>
+				<li><a href="https://www.youtube.com/channel/UCLQJJsv8N04vafWw6FSEktg" target="_blank"><img id="youtubeButton" src="assets/YouTube_Logo_2017_NoName.svg"></img></a></li>
+				<li><hr style="width:80%;height:1px;display:inline-block;"/></li>
+				<li><a href="mailto:smmohtashimahmed@gmail.com" target="_blank"><img id="mailButton" src="assets/Gmail_icon_(2020).svg"></img></a></li>
+				<li><hr style="width:80%;height:1px;display:inline-block;"/></li>
+				<li><a href="Wavy-Pages" target="_blank"><img id="wavyPagesProjectButton" src="assets/Wavy%20Pages%20Logo.svg"></img></a></li>
+				<li><a href="CiSVG" target="_blank"><img id="ciSVGProjectButton" src="assets/CiSVG logo.svg"></img></a></li>
+				<li><a href="Foundation" target="_blank"><img id="foundationProjectButton" src="assets/Foundation Logo.svg"></img></a></li>
+			</ul>
+		</nav>
+	</aside>
+	<main role=main>
+		<section id="topSection">
+			<h1 style="color:white;margin-top:100px;margin-left:100px;font-family:'Marker';font-size:3em;filter:drop-shadow(15px 15px 20px black);">I Make High Ranking Masterpiece Websites</h1>
+		</section>
+		<section id="productsSection">
+			<h1 class="tiltedBanner"><img src="assets/shopping-bag.svg" /> My Favourite <span style="color:white;">Books</span></h1>
+			<article class="sectionBox" id="bookBox">
+				<ul class="bookShowcase">
+					<li><a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/0349411905/?_encoding=UTF8&pd_rd_w=57DP5&content-id=amzn1.sym.716a1ed9-074f-4780-9325-0019fece3c64&pf_rd_p=716a1ed9-074f-4780-9325-0019fece3c64&pf_rd_r=3Z9D79GR7PWXT14AVBZD&pd_rd_wg=DwBZo&pd_rd_r=e10e5675-608e-4e2b-a428-67668b27b342&ref_=pd_gw_ci_mcx_mr_hp_atf_m"><img src="https://m.media-amazon.com/images/I/71g8BUSqbpL.jpg"/></a></li>
+					<li><a href="https://www.amazon.com/dp/1508243247/ref=sspa_dk_detail_1?psc=1&pd_rd_i=1508243247&pd_rd_w=F90uo&content-id=amzn1.sym.88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_p=88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_r=57SCBS0BJKAGSWA49RTY&pd_rd_wg=WtS2o&pd_rd_r=1e6ef89a-2da3-468b-9966-cea81ac564f2&s=books&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw"><img src="https://m.media-amazon.com/images/I/71wAI5TwNsL.jpg"/></a></li>
+					<li><a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654/ref=sr_1_1?crid=10Z4VX8KOTDB8&keywords=Design&qid=1666262148&qu=eyJxc2MiOiI2LjEyIiwicXNhIjoiNi4xNiIsInFzcCI6IjQuNTcifQ%3D%3D&s=books&sprefix=de%2Cstripbooks-intl-ship%2C1443&sr=1-1"><img src="https://m.media-amazon.com/images/I/81zpLhP1gWL.jpg"/></a></li>
+					<li><a href="https://www.amazon.com/Business-Development-Dummies-Anna-Kennedy/dp/1118962710/ref=sr_1_1?crid=1JLOHRP42C7YW&keywords=business+development+for+dummies&qid=1666260167&qu=eyJxc2MiOiIxLjYxIiwicXNhIjoiMS4yMSIsInFzcCI6IjEuNDQifQ%3D%3D&sprefix=%2Caps%2C683&sr=8-1"><img src="https://m.media-amazon.com/images/I/51A4C8Kk+YL.jpg"/></a></li>
+					<li><a href="https://www.amazon.com/Scrum-Dummies-Computers-Mark-Layton/dp/1119467640/ref=pd_bxgy_sccl_1/144-1683395-0445433?pd_rd_w=exrXx&content-id=amzn1.sym.7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_p=7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_r=70FXJ9XSCFKTMZE9R4HS&pd_rd_wg=YuAOy&pd_rd_r=45b2e233-b469-49bf-b046-979595944443&pd_rd_i=1119467640&psc=1"><img src="https://m.media-amazon.com/images/I/81YibzoDzWL.jpg"/></a></li>
+					<li><a href="https://www.amazon.com/dp/1119858658/ref=sspa_dk_detail_10?psc=1&pf_rd_p=9ba7ad0c-ad0a-40bb-be06-94f2b4aefa3c&pf_rd_r=WHJ1HY14SRQ5VDRBZPSX&pd_rd_wg=FP2H0&pd_rd_w=DyEMy&content-id=amzn1.sym.9ba7ad0c-ad0a-40bb-be06-94f2b4aefa3c&pd_rd_r=6335d663-7f41-4dab-980b-b6a0a0fbe091"><img src="https://m.media-amazon.com/images/I/81i+65e6-yL.jpg"/></a></li>
+					<li><a href="https://www.amazon.com/Complete-MBA-Dummies-Kathleen-Allen/dp/076455204X/ref=sr_1_2?keywords=mba+for+dummies&qid=1666261987&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi43MyIsInFzcCI6IjIuNjYifQ%3D%3D&s=books&sprefix=MBA+%2Cstripbooks-intl-ship%2C265&sr=1-2"><img src="https://m.media-amazon.com/images/I/51jUyx-Vf0L.jpg"/></a></li>
+				</ul>
+			</article>
+		</section>
+		<section id="projectsSection">
+			<h1 class="tiltedBanner" style="color:#191919;"><img src="assets/hammer.svg"/>My Projects</h1>
+			<article class="sectionBox" id="projectsBox">
+				<ul class="cardShowcase">
+					<li>
+						<img src="assets/Wavy-Pages.png"/>
+						<h2>Wavy Pages</h2>
+						<p>An SVG waves generator that provides a wide array of options. The output code is very readable and the project is used by hundereds of people to create stunning websites.</p>
+					</li>
+					<li>
+
+						<img src="assets/Foundation.png"/>
+						<h2>Foundation</h2>
+						<p>A boilerplate repository for GitHub. Clone this for quick prototyping and dummy jobs. Includes live shields, LICENSE, README, etc.</p>
+					</li>
+					<li>
+						<img src="assets/CISVG.png"/>
+						<h2>CISVG</h2>
+						<p>A Polar Form SVG generator App. It allows us to write SVG Paths with both Polar Form and Rectangular Form. Relative Angles comming soon!</p>
+					</li>
+				</ul>
+			</article>
+		</section>
+		<section id="blogSection" style="color:black;">
+			<h1 class="tiltedBanner"><img src="assets/YouTube_Logo_2017_NoName_inverted.svg" /> <span style="color:red;">Youtube</span> Favourites</h1>
+			<article class="sectionBox" id="blogBox">
+				<ul class="videoShowcase">
+					<li><a href="https://www.youtube.com/watch?v=t3rKrTehORY"><img src="https://img.youtube.com/vi/t3rKrTehORY/0.jpg"/></a></li>
+					<li><a href="https://www.youtube.com/watch?v=e_TxH59MclA"><img src="https://img.youtube.com/vi/e_TxH59MclA/0.jpg"/></a></li>
+					<li><a href="https://www.youtube.com/watch?v=328wX2x_s5g"><img src="https://img.youtube.com/vi/328wX2x_s5g/0.jpg"/></a></li>
+				</ul>
+				<ul class="videoShowcase">
+					<li><a href="https://www.youtube.com/watch?v=0NbBjNiw4tk"><img src="https://img.youtube.com/vi/0NbBjNiw4tk/0.jpg"/></a></li>
+					<li><a href="https://www.youtube.com/watch?v=AjnNYPtNa6A"><img src="https://img.youtube.com/vi/AjnNYPtNa6A/0.jpg"/></a></li>
+					<li><a href="https://www.youtube.com/watch?v=Unl1jXFnzgo"><img src="https://img.youtube.com/vi/Unl1jXFnzgo/0.jpg"/></a></li>
+				</ul>
+			</article>
+		</section>
+		<section id="aboutMeSection">
+			<h1 class="tiltedBanner"><img src="assets/user-alt.svg"/> About Me</h1>
+			<article class="sectionBox" id="aboutMe">
+				<aside class="imageRack">
+					<img src="assets/html5.svg"/>
+					<img src="assets/css3.svg"/>
+					<img src="assets/js.svg"/>
+					<img src="assets/npm.svg"/>
+					<img src="assets/node.svg"/>
+					<img src="assets/git-alt.svg"/>
+					<img src="assets/aws.svg"/>
+					<img src="assets/gulp.svg"/>
+					<img src="assets/linux.svg"/>
+				</aside>
+				<img id="myImage" src="assets/Ray%20Voice.png" alt="myImage"/>
+				<section id="myCoverLetter">
+					<p>My name is <b>Mohtashim Ahmed</b>. I am a <b>Full-Stack Engineer</b> with 12+ years of experience and expertise in the following technologies and skills:</p>
+					<ul>
+						<li>HTML5+CSS3</li>
+						<li>Javascript+NodeJS</li>
+						<li>Vector Graphics</li>
+						<li>SEO</li>
+						<li>C/C++</li>
+						<li>Linux</li>
+					</ul>
+					<p>Working with me will make your <b>Websites and Apps</b> look great! Using my style of raw code and CI/CD you can <b>save</b> yourself <b>thousands of dollars</b>. I create <b>secure, high-performance linux servers</b> that scales well without developer intervention using a built-in Back-end CPanel+CMS with an amazing UI. Several of my servers are now part of <b>"999 SLA" Enterprise Contracts</b> making <b>millions in Revenue</b> for their companies. Hire me now by email at: <address><a href="mailto:smmohtashimahmed@gmail.com">smmohtashimahmed@gmail.com</a></address></p>
+				</section>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<nav id="footerLinks">
+			<section>
+				<h1>Navigate the Site</h1>
+				<ul>
+					<li><a href="#productsSection">My Affiliate Links</a></li>
+					<li><a href="#projectsSection">My Portfolio</a></li>
+					<li><a href="#aboutMeSection">About Me</a></li>
+					<li><a href="#blogSection">My Video Collection</a></li>
+					<li><a target="_blank" href="https://www.youtube.com/channel/UCLQJJsv8N04vafWw6FSEktg">Armchair Courses YouTube</a></li>
+				</ul>
+			</section>
+			<section>
+				<h1>Make Money with Me</h1>
+				<ul>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I Want to Disply my Product at your Site&body=This is a link to my product ___, and I offer ___ price.">Display Your Product Here</a></li>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I Want a Portfolio&body=I want you to ghost-write a portfolio for me. Here is a link to my social media ___.">Let me Ghost-Write a Portfolio for You</a></li>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I Want help with Kindle&body=I have attached a menuscript for you to chekout.">Want my help in Self-Publishing your Kindle Book</a></li>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I Want help with Purchase of an Item&body=I want to buy a ___, and I want your help purchasing it at a fair price.">Purchase an Electronic Item with my Reference</a></li>
+				</ul>
+			</section>
+			<section>
+				<h1>Let Me Help You</h1>
+				<ul>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I want to save Money&body=I have a ___ budget for ___. I want help with budget projections!">Save Money by <b>Consulting Me</b></a></li>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I wnat your Help with a Project&body=I am working on ___ and I want your help with it.">Built better <b>Technology</b> with my Help</a></li>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I want to learn Software Engineering&body=My Name is ___. I have a background in ___ studies.">Learn <b>Software Engineering</b> from Me</a></li>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I want help with my Start-Up&body=Here is our site and deck.">Do you need Help with a <b>Start-Up</b></a>?</li>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I want to learn how to work as a Freelancer&body=My name is ___. I work to work as a ___ freelancer.">Learn How to do <b>Freelance</b> Work with Me</a></li>
+					<li><a href="mailto:smmohtashimahmed@gmail.com?subject=I want to learn Cyber Security&body=My name is ___. This is a link to my Portfolio ___.">Learn <b>Cyber Security</b> from Me</a></li>
+				</ul>
+			</section>
+			<section>
+				<h1>Social Media</h1>
+				<ul id="mediaHandles">
+					<li><img src="assets/Twitter-logo-light.svg"/> <a href="https://twitter.com/CarefulProgram">@CarefulProgram</a></li>
+					<li><img src="assets/linkedin.svg"/> <a href="https://www.linkedin.com/in/mohtashim-ahmed-768445250/">My LinkedIn</a></li>
+				</ul>
+			</section>
+		</nav>
+		<aside>&copy; 2022 S M Mohtashim Ahmed</aside>
+	</footer>
+	<aside id="noPortraitMsg"><p>Please Rotate your <b>Smart-phone</b> or Set your <b>Browser</b> in <b>full-screen</b> mode to check out this website. A Portrait-mode is comming soon! This website was originally made for big desktops only. Try to view with a bigger Screen!</p></aside>
+	<img id="cloud4" src="assets/cloud1.svg"/>
+	<img id="cloud3" src="assets/cloud1.svg"/>
+	<img id="moon" src="assets/moon.svg"/>
+	<img id="cloud1" src="assets/cloud1.svg"/>
+	<img id="cloud2" src="assets/cloud1.svg"/>
+	<script src="scripts/main.js"></script>
 </body>
 </html>
