@@ -1,0 +1,45 @@
+#noPortraitMsg {visibility:hidden;position:fixed;top:0px;left:0px;height:100vh;width:80vw;background-color:#191919;color:white;display:flex;align-items:center;justify-content:center;padding:10vh 10vw;text-indent:5vw;}
+ /*@media only screen and (min-width:1400) {*/
+
+/*p {text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}*/
+
+
+/*
+.cardShowcase > li {
+  height:30vh;
+}
+.cardShowcase > li > p {
+	width:36vw;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	vertical-align:middle;
+	font-size:calc(1vh + 1vw);
+}
+*/
+
+/*
+@media (orientation: portrait) {
+	footer > nav {display:flex;flex-flow:row wrap;width:100%;align-items:center;justify-content:center;font-size:3vw;}
+	#leftNav, #gitHubIcon, #twitterIcon, #youtubeButton, #likeButton, #searchBox, #submitSearch {visibility:hidden;}
+	body {width:100%;position:absolute;top:0px;left:-3vw;}
+}*/
+
+@media (max-width:1200px) {
+	body {overflow-y:hidden;}
+	#noPortraitMsg {visibility:visible;z-index:1999;}
+	#leftNav, #gitHubIcon, #twitterIcon, #youtubeButton, #likeButton, #searchBox, #submitSearch {visibility:hidden;}
+}
+/*
+@media (orientation: portrait) {
+	body {overflow-y:hidden;}
+	#noPortraitMsg {visibility:visible;z-index:1999;}
+	#leftNav, #gitHubIcon, #twitterIcon, #youtubeButton, #likeButton, #searchBox, #submitSearch {visibility:hidden;}
+}
+*/
+/*
+@media (orientation: landscape) {
+	body {overflow-y:visible;}
+	#noPortraitMsg {visibility:hidden;z-index:1999;}
+	#leftNav, #gitHubIcon, #twitterIcon, #youtubeButton, #likeButton, #searchBox, #submitSearch {visibility:visible;}
+}
+*/

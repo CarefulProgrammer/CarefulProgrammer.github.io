@@ -1,0 +1,118 @@
+footer {font-size:1vw;}
+footer > nav {display:flex;flex-flow:row nowrap;width:100%;align-items:flex-start;justify-content:center;}
+footer > nav > section {margin:0px 2vw;}
+footer > nav > section > * {margin:5px;}
+footer > nav > section > ul {display:flex;flex-flow:column nowrap;align-items:flex-start;list-style-type:none;}
+footer > nav > section> ul > li > a {text-decoration:none;color:#dfdfdf;}
+footer > nav > section> ul > li > img {height:20px;}
+footer > aside {width:100%;text-align:center;margin-top:50px;}
+
+#webName {float:left;font-size:3vh;font-family:'Marker';margin-top:0.3rem;}
+#headerNav {float:right;}
+#leftNav {background-color:#191919;height:100vh;z-index:1000;position:fixed;top:0px;left:0px;padding: 7vh 0px 0px 0px;
+	box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);}
+nav > ul {list-style-type:none;margin:0px;padding:0px 0px 0px 0.5vw;}
+#headerNav > ul > li {display:inline-block;}
+#leftNav > ul > li {display:block;}
+
+/*Left NavBar Buttons*/
+#gitHubIcon, #twitterIcon, #youtubeButton, #mailButton, #homeButton, #wavyPagesProjectButton, #ciSVGProjectButton, #foundationProjectButton {float:right;width:2vw;padding:0.2rem 1rem 0.5rem 0.5rem;}
+#wavyPagesProjectButton {filter:drop-shadow(0px 0px 1px #dfdfdf);}
+#homeButton {float:right;width:2vw;padding:0.2rem 1rem 0.5rem 0.5rem;filter:invert(100%);}
+/*Top NavBar Buttons*/
+#burgerMenu, #likeButton {float:right;height:4vh;padding:0.2rem 1rem 0.5rem 0.5rem;}
+#twitterIcon, #likeButton {filter:grayscale(100%)brightness(1000%);}
+#searchBox, #submitSearch {float:right;height:2vh;margin:1vh 0px 0px 0.5vw;}
+#searchBox {position:relative;left:2vw;}
+#submitSearch {padding:0.4vh;position:relative;z-index:20001;}
+
+/* Button Hover Effect */
+#youtubeButton:hover {content:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/YouTube_Logo_2017_NoName_inverted.svg");filter:drop-shadow(0px 0px 10px red);}
+#mailButton:hover {filter:drop-shadow(0px 0px 10px yellow);}
+#burgerMenu:hover, #homeButton:hover {filter:drop-shadow(0px 0px 10px white);}
+#gitHubIcon:hover {filter:drop-shadow(0px 0px 10px black)invert(100%);}
+#twitterIcon:hover {filter:drop-shadow(0px 0px 10px #1d9bf0);}
+#likeButton:hover {filter:drop-shadow(0px 0px 10px red);}
+#wavyPagesProjectButton:hover {filter:drop-shadow(0px 0px 10px cyan);}
+#ciSVGProjectButton:hover {filter:drop-shadow(0px 0px 10px red);}
+#foundationProjectButton:hover {filter:drop-shadow(0px 0px 10px white);}
+
+#moon {position:absolute;top:15vh;right:-10vw;height:70vmin;}
+#cloud1, #cloud2, #cloud3, #cloud4 {position:absolute;top:25vh;animation:10s infinite alternate wavey;filter:drop-shadow(16px 16px 20px #333);}
+#cloud1 {left:10vw;height:75vmin;}
+#cloud2 {left:30vw;height:90vmin;}
+#cloud3 {left:50vw;height:70vmin;}
+#cloud4 {left:70vw;height:50vmin;}
+
+
+
+main > section {padding:500px 50px;height:20vh;width:95%;background-size:cover;border:0px solid white;} /* Make this 1 px border*/
+main > section > h1.tiltedBanner {float:left;font-size:2rem;transform:rotate(-90deg)translateX(-200px)translateY(-5vw);text-align:center;font-family:'Marker', arial;}
+main > section > article {display:flex;flex-flow:row wrap;align-items:center;justify-content:center;width:100%;}
+main > section > article > * {margin:10px;}
+main > section > article > section {width:50%;text-align:left;font-family:serif;text-indent:5vw;margin:0px;}
+main > section > article > aside {width:100%;text-align:center;}
+main > section > article > aside > img {height:10vh;margin:0px 2vw;}
+main > section > article > section > p {margin:10px;}
+main > section > article > section > ul {margin-left:20px;display:flex;flex-flow:column wrap;height:60px;width:50vw;list-style:none;}
+#topSection {height:40vh;padding:0px;}
+
+#productsSection {background-image:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/productsSectionBG.svg");}
+#projectsSection {background-image:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/projectsSectionBG.svg");}
+#blogSection {background-image:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/blogSectionBG.svg");}
+#aboutMeSection {background-image:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/aboutmeSectionBG.svg");}
+#footerTop {position:relative;top:-19.6vh;filter:drop-shadow(0px -4px 1px black);}
+
+#myCoverLetter > * {font-size:calc(1vh + 1vw);}
+#myImage {height:55vh;max-width:35vw;border-radius:10% 50%;background-color:#191919;border:6px solid black;}
+#myImage:hover {transform:rotate(5deg);}
+.videoShowcase {list-style:none;display:flex;flex-flow:row nowrap;align-items:streach;align-content:streach;margin-left:25vw;overflow-x:hidden;overflow-y:hidden;border:5px solid black;border-radius:50px 50%;background-color:black;}
+.videoShowcase > li {max-width:30%;max-height:70vh;}
+.videoShowcase > li > a > img {height:40vh;border-radius:10px 50%;border:5px solid black;box-shadow:-15px 0px 40px black;}
+.videoShowcase > li:hover {filter:hue-rotate(90deg);transform:rotate(10deg);}
+.tiltedBanner > img {height:5vh;}
+
+.cardShowcase {list-style:none;display:flex;flex-flow:row wrap;align-items:streach;align-content:streach;margin-left:25vw;overflow-x:hidden;}
+.cardShowcase > li {display:flex;flex-flow:row nowrap;align-items:center;background-color:white;color:black;border:1px solid black;margin:0.2rem;border-radius:10px 50px 50px 10px;max-height:25vw;}
+.cardShowcase > li > img {width:32%;margin:0.5rem;border:1px solid black;border-radius:10px;}
+.cardShowcase > li > p {text-indent:2vw;width:50%;margin:1rem;border-left:5px solid black;padding-left:5px;font-size:1vw;}
+.cardShowcase > li:hover {background-color:#191919;color:white;}
+.cardShowcase > li:hover > p {width:50%;margin:1rem;border-left:5px solid black;padding-left:5px;font-size:1.2em;}
+
+.imageRack {filter:invert(80%);width:90vw;display:flex;flex-flow:row nowrap;justify-content:center;}
+.imageRack > img {width:5%;}
+
+.bookShowcase {list-style:none;display:flex;flex-flow:row nowrap;align-items:streach;align-content:streach;margin-left:20vw;overflow-y:hidden;border:5px solid black;border-radius:50px 30%;background-color:black;}
+.bookShowcase > li {max-width:30%;max-height:70vh;}
+.bookShowcase > li > a > img {height:70vh;border-radius:10px 10%;border:5px solid black;box-shadow:-5px 0px 25px black;filter:drop-shadow(5px 5px 5px black);}
+.bookShowcase > li:hover {filter:hue-rotate(-90deg);transform:rotate(10deg);}
+
+#closeSearchResults {position:absolute;top:10px;right:10px;height:50px;}
+#searchResults {position:absolute;height:60vh;width:70vw;top:10vh;left:10vw;background-color:white;border:1px solid blue;border-radius:13px 50px;color:black;padding:10vh;visibility:hidden;}
+
+#closeSearchResults {background-color:none;width:5rem;height:5rem;border-radius:50%;appearance:none;border:none;background-image:url(file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/times-circle.svg);background-color:white;}
+
+#rightTray {
+	position:absolute;
+	top:6vh;
+	right:-30vw;
+	box-shadow:-5px 0px 30px black;
+}
+.moveRightTray {
+	animation-name: "moveRightTray";
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+@keyframes moveRightTray {
+  to {
+    transform: translate(-30vw);
+  }
+}
+
+#rightTray > ul {list-style:none;display:flex;flex-flow:column nowrap;align-items:flex-start;font-size:2rem;width:30vw;height:100vh;background-color:#16213e;}
+#rightTray > ul > li {box-shadow:inset 5px 1px 2px #191919;padding:10px;width:100%;}
+#rightTray > ul > li:hover {box-shadow:inset 7px 4px 5px #19df19;padding:10px;width:100%;}
+#rightTray > ul > li > img {height:3vh;}
+
