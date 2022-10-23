@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: http://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="135pt"
+    height="135pt"
+    viewBox="0 0 135 135">
+<defs>
+  <radialGradient id="gradient0" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0" stop-opacity="0.2"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient1" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#f8faf8" offset="0" stop-opacity="0.4"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient2" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0" stop-opacity="0.6"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient3" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0" stop-opacity="0.8"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient4" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient5" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#b2b2b2" offset="0" stop-opacity="0.101960784313725"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient6" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#b2b2b2" offset="0" stop-opacity="0.101960784313725"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient7" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#b2b2b2" offset="0" stop-opacity="0.101960784313725"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient8" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#808080" offset="0" stop-opacity="0.101960784313725"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient9" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#808080" offset="0" stop-opacity="0.101960784313725"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient10" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#808080" offset="0" stop-opacity="0.101960784313725"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+ </defs>
+<circle id="shape0" transform="matrix(0.999999986635955 0 0 0.999999986635955 3.53379296780921 3.53379296780919)" r="63.9662078870381" cx="63.9662078870381" cy="63.9662078870381" fill="url(#gradient0)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape01" transform="matrix(0.999999960735582 0 0 0.999999960735582 14.3921303508414 14.3921303508414)" r="53.1078717344083" cx="53.1078717344083" cy="53.1078717344083" fill="url(#gradient1)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape02" transform="matrix(0.99999994662434 0 0 0.99999994662434 22.1424825289094 22.1424825289094)" r="45.3575198920782" cx="45.3575198920782" cy="45.3575198920782" fill="url(#gradient2)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape03" transform="matrix(0.999999931548348 0 0 0.999999931548348 29.7482023042755 29.7482023042755)" r="37.7518002798976" cx="37.7518002798976" cy="37.7518002798976" fill="url(#gradient3)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape031" transform="matrix(0.999999941937114 0 0 0.999999941937114 37.3985622251002 37.9449152542373)" r="30.1375216283068" cx="30.1375216283068" cy="30.1375216283068" fill="url(#gradient4)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape01" transform="translate(49.6382415254237, 49.6382415254237)" r="17.8617584745763" cx="17.8617584745763" cy="17.8617584745763" fill="#ffffff" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape02" transform="matrix(0.999999960735582 0 0 0.999999960735582 54.943983099987 55.2966101694915)" r="4.48093237933103" cx="4.48093237933103" cy="4.48093237933103" fill="url(#gradient5)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape03" transform="matrix(0.999999962820446 0 0 0.99999997393064 58.5381355745361 57.5224583844155)" r="4.48093237933103" cx="4.48093237933103" cy="4.48093237933103" fill="url(#gradient6)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape04" transform="matrix(0.999999962820446 0 0 0.99999997393064 72.1283052391884 67.5)" r="4.48093237933103" cx="4.48093237933103" cy="4.48093237933103" fill="url(#gradient7)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape05" transform="matrix(0.999999962820446 0 0 0.99999997393064 67.1706781205444 53.6038143350555)" r="4.48093237933103" cx="4.48093237933103" cy="4.48093237933103" fill="url(#gradient8)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape06" transform="matrix(0.999999970371732 0 0 0.999999923002479 71.1126278290076 53.3898305084746)" r="4.48093237933103" cx="4.48093237933103" cy="4.48093237933103" fill="url(#gradient9)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape07" transform="matrix(0.999999970371732 0 0 0.999999923002479 58.5381355068625 72.9906756445725)" r="4.48093237933103" cx="4.48093237933103" cy="4.48093237933103" fill="url(#gradient10)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/>
+</svg>

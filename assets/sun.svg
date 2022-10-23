@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: http://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="135pt"
+    height="135pt"
+    viewBox="0 0 135 135">
+<defs>
+  <radialGradient id="gradient0" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#ffa518" offset="0" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient1" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#ffa518" offset="0" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient2" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#ffa518" offset="0" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient3" gradientUnits="objectBoundingBox" cx="0.5" cy="0.506590217261964" fx="0.5" fy="0.506590217261964" r="0.704251002851846" spreadMethod="pad">
+   <stop stop-color="#ffa518" offset="0" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+ </defs>
+<circle id="shape0" transform="matrix(0.999999986635955 0 0 0.999999986635955 3.53379296780921 3.53379296780919)" r="63.9662078870381" cx="63.9662078870381" cy="63.9662078870381" fill="url(#gradient0)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape01" transform="matrix(0.999999960735582 0 0 0.999999960735582 14.3921303508414 14.3921303508414)" r="53.1078717344083" cx="53.1078717344083" cy="53.1078717344083" fill="url(#gradient1)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape02" transform="matrix(0.99999994662434 0 0 0.99999994662434 22.1424825289094 22.1424825289094)" r="45.3575198920782" cx="45.3575198920782" cy="45.3575198920782" fill="url(#gradient2)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape03" transform="matrix(0.999999931548348 0 0 0.999999931548348 29.7482023042755 29.7482023042755)" r="37.7518002798976" cx="37.7518002798976" cy="37.7518002798976" fill="url(#gradient3)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><circle id="shape0" transform="translate(49.6382415254237, 49.6382415254237)" r="17.8617584745763" cx="17.8617584745763" cy="17.8617584745763" fill="#ffea00" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/>
+</svg>
