@@ -27,7 +27,7 @@ nav > ul {list-style-type:none;margin:0px;padding:0px 0px 0px 0.5vw;}
 #submitSearch {padding:0.4vh;position:relative;z-index:20001;}
 
 /* Button Hover Effect */
-#youtubeButton:hover {content:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/YouTube_Logo_2017_NoName_inverted.svg");filter:drop-shadow(0px 0px 10px red);}
+#youtubeButton:hover {content:url("https://carefulprogrammer.github.io/assets/YouTube_Logo_2017_NoName_inverted.svg");filter:drop-shadow(0px 0px 10px red);}
 #mailButton:hover {filter:drop-shadow(0px 0px 10px yellow);}
 #burgerMenu:hover, #homeButton:hover {filter:drop-shadow(0px 0px 10px white);}
 #gitHubIcon:hover {filter:drop-shadow(0px 0px 10px black)invert(100%);}
@@ -57,10 +57,10 @@ main > section > article > section > p {margin:10px;}
 main > section > article > section > ul {margin-left:20px;display:flex;flex-flow:column wrap;height:60px;width:50vw;list-style:none;}
 #topSection {height:40vh;padding:0px;}
 
-#productsSection {background-image:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/productsSectionBG.svg");}
-#projectsSection {background-image:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/projectsSectionBG.svg");}
-#blogSection {background-image:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/blogSectionBG.svg");}
-#aboutMeSection {background-image:url("file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/aboutmeSectionBG.svg");}
+#productsSection {background-image:url("https://carefulprogrammer.github.io/assets/productsSectionBG.svg");}
+#projectsSection {background-image:url("https://carefulprogrammer.github.io/assets/projectsSectionBG.svg");}
+#blogSection {background-image:url("https://carefulprogrammer.github.io/assets/blogSectionBG.svg");}
+#aboutMeSection {background-image:url("https://carefulprogrammer.github.io/assets/aboutmeSectionBG.svg");}
 #footerTop {position:relative;top:-19.6vh;filter:drop-shadow(0px -4px 1px black);}
 
 #myCoverLetter > * {font-size:calc(1vh + 1vw);}
@@ -90,7 +90,7 @@ main > section > article > section > ul {margin-left:20px;display:flex;flex-flow
 #closeSearchResults {position:absolute;top:10px;right:10px;height:50px;}
 #searchResults {position:absolute;height:60vh;width:70vw;top:10vh;left:10vw;background-color:white;border:1px solid blue;border-radius:13px 50px;color:black;padding:10vh;visibility:hidden;}
 
-#closeSearchResults {background-color:none;width:5rem;height:5rem;border-radius:50%;appearance:none;border:none;background-image:url(file:///home/ray/repositories/CarefulProgrammer%20repos/CarefulProgrammer.github.io/assets/times-circle.svg);background-color:white;}
+#closeSearchResults {background-color:none;width:5rem;height:5rem;border-radius:50%;appearance:none;border:none;background-image:url("https://carefulprogrammer.github.io/assets/times-circle.svg);background-color:white;}
 
 #rightTray {
 	position:absolute;
@@ -115,4 +115,3 @@ main > section > article > section > ul {margin-left:20px;display:flex;flex-flow
 #rightTray > ul > li {box-shadow:inset 5px 1px 2px #191919;padding:10px;width:100%;}
 #rightTray > ul > li:hover {box-shadow:inset 7px 4px 5px #19df19;padding:10px;width:100%;}
 #rightTray > ul > li > img {height:3vh;}
-
